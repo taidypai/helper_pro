@@ -13,7 +13,7 @@ from services.time_utils import time_service
 from services.analysis_service import analysis_service
 
 # Загрузка переменных окружения
-load_dotenv()
+# load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
