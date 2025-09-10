@@ -3,7 +3,7 @@ from aiogram import Bot
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # Конфигурация из переменных окружения
-TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+TOKEN = 'YOUR_BOT_TOKEN_HERE'
 
 # Инициализация бота и хранилища
 bot = Bot(token=TOKEN)
