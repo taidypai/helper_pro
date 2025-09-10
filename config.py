@@ -1,0 +1,14 @@
+import os
+from aiogram import Bot
+from aiogram.fsm.storage.memory import MemoryStorage
+
+# Конфигурация из переменных окружения
+TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+
+# Инициализация бота и хранилища
+bot = Bot(token='8213569469:AAExbtP6wQaKky-4Y4TQ9E807j184QSH6hY')
+storage = MemoryStorage()
+
+# Глобальные состояния
+subscribed_users = set()
+running_analyses = {}
