@@ -6,7 +6,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
 
 # Инициализация бота и хранилища
-bot = Bot(token='8213569469:AAExbtP6wQaKky-4Y4TQ9E807j184QSH6hY')
+bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 
 # Глобальные состояния
