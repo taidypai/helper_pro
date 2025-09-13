@@ -1,0 +1,5 @@
+aiogram==3.0.0b7
+python-dotenv==1.0.0
+binance==1.0.1
+aiohttp==3.8.4
+pytz==2023.3
