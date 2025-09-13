@@ -12,7 +12,7 @@ your_bot_project/
 │   ├──  state_service.py     # Состояние пользователей
 │   ├──  message_utils.py     # Утилиты сообщений
 │   ├──  progress_service.py  # Анимация прогресса
-│   ├──  models.py            # Модель для анализа свечей
+│   ├──  models.py
 │   └──  trade_calculator.py  # Счетчик позиции
 │
 │
