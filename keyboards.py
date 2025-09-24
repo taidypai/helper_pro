@@ -15,7 +15,7 @@ def start_keyboard() -> InlineKeyboardMarkup:
 def main_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.row(
-        InlineKeyboardButton(text="Сделка", callback_data="lot"),
+        InlineKeyboardButton(text="Позиция", callback_data="lot"),
         InlineKeyboardButton(text="Настройки", callback_data="settings")
     )
     return builder.as_markup()
