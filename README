@@ -1,5 +1,5 @@
 Структура проэкта
-your_bot_project/
+📁 your_bot_project/
 ├──  run_bot.py                  # Главный файл запуска
 ├──  config.py                   # Конфигурация бота
 ├──  requirements.txt            # Зависимости (желательно создать)
@@ -16,13 +16,13 @@ your_bot_project/
 │   └──  trade_calculator.py     # Счетчик позиции
 │
 │
-├──  handlers/                    # ПАПКА: Хендлеры
+├── 📁 handlers/                  # ПАПКА: Хендлеры
 │    ├── __init__.py              # Инициализация всех роутеров
 │    ├── start_handlers.py        # Обработчики команд
 │    ├── message_handlers.py      # Обработчики текстовых сообщений 
 │    ├── callback_routers.py      # Главный роутер для callback-запросов
 │    │    
-│    └── callback_handlers/         # ПАПКА: Подмодули для callback-обработчиков
+│    └── 📁 callback_handlers/      # ПАПКА: Подмодули для callback-обработчиков
 │        ├── __init__.py            # Инициализация callback роутеров
 │        ├── settings_handlers.py   # Обработчики настроек 
 │        ├── trade_handlers.py      # Обработчики торговых операций
