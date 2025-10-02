@@ -7,7 +7,7 @@
 ├── 📁 services/                  # ПАПКА: Сервисы
 │   ├──  __init__.py             # Инициализация сервисов
 │   ├──  analysis_service.py     # Анализ цен
-│   ├──  price_service.py        # Работа с Binance API
+│   ├──  price_service.py        # Работа с Traiding View
 │   ├──  time_utils.py           # Время и таймфреймы
 │   ├──  state_service.py        # Состояние пользователей
 │   ├──  message_utils.py        # Утилиты сообщений
