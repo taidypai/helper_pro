@@ -1,0 +1,33 @@
+Структура проэкта
+📁 your_bot_project/
+├──  run_bot.py                  # Главный файл запуска
+├──  config.py                   # Конфигурация бота
+├──  requirements.txt            # Зависимости (желательно создать)
+│
+├── 📁 services/                  # ПАПКА: Сервисы
+│   ├──  __init__.py             # Инициализация сервисов
+│   ├──  analysis_service.py     # Анализ цен
+│   ├──  price_service.py        # Работа с Trading View
+│   ├──  time_utils.py           # Время и таймфреймы
+│   ├──  state_service.py        # Состояние пользователей
+│   ├──  message_utils.py        # Утилиты сообщений
+│   ├──  progress_service.py     # Анимация прогресса
+│   ├──  models.py               # Модели свеч
+│   └──  trade_calculator.py     # Счетчик позиции
+│
+│
+├── 📁 handlers/                  # ПАПКА: Хендлеры
+│    ├── __init__.py              # Инициализация всех роутеров
+│    ├── start_handlers.py        # Обработчики команд
+│    ├── message_handlers.py      # Обработчики текстовых сообщений 
+│    ├── callback_routers.py      # Главный роутер для callback-запросов
+│    │    
+│    └── 📁 callback_handlers/      # ПАПКА: Подмодули для callback-обработчиков
+│        ├── __init__.py            # Инициализация callback роутеров
+│        ├── settings_handlers.py   # Обработчики настроек 
+│        ├── trade_handlers.py      # Обработчики торговых операций
+│        ├── time_handlers.py       # Обработчики времени 
+│        └── navigation_handlers.py # Обработчики навигации 
+│
+└──  keyboards.py             # Клавиатуры бота
+
